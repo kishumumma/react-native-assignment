@@ -1,4 +1,7 @@
 import {combineReducers} from 'redux';
-const rootReducer = combineReducers({});
+import HomeReducer from '../screen/home/redux/HomeReducer';
+const rootReducer = combineReducers({
+  home: HomeReducer,
+});
 
 export default rootReducer;
